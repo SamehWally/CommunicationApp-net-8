@@ -1,0 +1,9 @@
+<h1 class="btn btn-success">{{ title }}</h1>
+
+<ul>
+  @for (user of users; track user.id) {
+    <li>
+      {{ user.userName }}
+    </li>
+  }
+</ul>
